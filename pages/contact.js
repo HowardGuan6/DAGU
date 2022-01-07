@@ -2,7 +2,7 @@ import styles from '../styles/Contact.module.css';
 import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
-const contact = () => {
+const Contact = () => {
     const formRef = useRef();
     const [send, setSend] = useState(false);
 
@@ -37,4 +37,4 @@ const contact = () => {
     )
 }
 
-export default contact
+export default Contact
