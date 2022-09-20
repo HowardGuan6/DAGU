@@ -27,12 +27,12 @@ const Footer = () => {
                 <div className={styles.card}>
                     <h1 className={styles.title}>WORKING HOURS</h1>
                     <p className={styles.text}>
-                        SUNDAY TO THURSDAY
-                        <br />11a.m - 8p.m
+                        MONDAY TO SUNDAY
+                        <br />11a.m - 7:30p.m
                     </p>
                     <p className={styles.text}>
-                        FRIDAY TO SATURDAY
-                        <br />11a.m - 8:30p.m
+                        MONDAY TO SUNDAY
+                        <br />11a.m - 8:00p.m
                     </p>
                 </div>
             </div>
